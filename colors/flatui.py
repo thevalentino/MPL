@@ -39,4 +39,4 @@ color_cycle = plt.cycler('color', [colors.__dict__[s] for s in color_sequence])
 color_cycle += plt.cycler('mec', [colors.__dict__['dark_{}'.format(s)]
                                   for s in color_sequence])
 
-plt.rcParams['axes.prop_cycle'] = color_cycle
+style = {'axes.prop_cycle': color_cycle}
