@@ -16,9 +16,19 @@ def lines(ax, nlines):
                     lw='1.5', capsize=0)
 
 if __name__ == "__main__":
-    from flatui import colors as flat
+    from flatui import style as flat
+    from material import style as material
     fig = plt.figure(1)
-    ax = fig.add_subplot(111)
-    lines(ax, 9)
-    ax.set_xlim(-0.1, 4.1)
-    plt.savefig('junk.pdf')
+    with plt.style.context(flat):
+        ax = fig.add_subplot(111)
+        lines(ax, 9)
+        ax.set_xlim(-0.1, 4.1)
+        plt.savefig('junk-flat.pdf')
+
+    plt.clf()
+    with plt.style.context(material):
+        ax = fig.add_subplot(111)
+        lines(ax, 18)
+        ax.set_xlim(-0.1, 4.1)
+        plt.savefig('junk-material.pdf')
+
