@@ -1,1 +1,1 @@
-from apj1col.py import style as apj1col
+from apj1col import style as apj1col
