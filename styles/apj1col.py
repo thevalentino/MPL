@@ -23,18 +23,19 @@ style = {
     'axes.xmargin' : 0.05,
     'axes.ymargin' : 0.05,
     'axes.labelsize' : 12.,
+    'axes.labelpad' : 3.5,
 
     'xtick.major.size' : 6,
     'xtick.minor.size' : 3,
     'xtick.major.width' : 1.,
     'xtick.minor.width' : 1.,
-    'xtick.labelsize' : 11,
+    'xtick.labelsize' : 10,
 
     'ytick.major.size' : 6,
     'ytick.minor.size' : 3,
     'ytick.major.width' : 1.,
     'ytick.minor.width' : 1.,
-    'ytick.labelsize' : 11,
+    'ytick.labelsize' : 10,
 
 
     'legend.numpoints' : 1,
@@ -42,12 +43,12 @@ style = {
     'legend.fontsize' : 10,
     'legend.frameon' : False,
 
-    'figure.figsize': (3.5, 3.5),
+    'figure.figsize': (3.5, 3.3),
     'figure.dpi' : 150,
-    'figure.subplot.left' : 0.18,
+    'figure.subplot.left' : 0.20,
     'figure.subplot.right' : 0.95,
-    'figure.subplot.bottom' : 0.15,
-    'figure.subplot.top' : 0.95,
+    'figure.subplot.bottom' : 0.1515,
+    'figure.subplot.top' : 0.9469,
 
     'image.interpolation' : 'nearest',
 
